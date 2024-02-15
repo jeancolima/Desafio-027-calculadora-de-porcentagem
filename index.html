@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>PERCEN
+                    <br>%
+                    <br>TAGE
+                </h1>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <div class="percentage-calculator">
+                <div class="number">
+                    <h2>Number</h2>
+                    <input type="number" name="number" id="number">
+                    <p>Enter the number you want to calculate the percentage.</p>
+                </div>
+                <div class="percentage">
+                    <h2>Percentage - <span class="percentage-current-number">50%</span></h2>
+                    <div class="percentage-range">
+                        <p>0%</p>
+                        <input type="range" name="range" id="range" min="0" value="50" max="100">
+                        <p>100%</p>
+                    </div>
+                    <p class="percentage-description">Enter the percentage of the number you want to find out.</p>
+                </div>
+                <div class="result">
+                    <h2>Result</h2>
+                    <p class="result-number">0</p>
+                </div>
+                <p class="text-error"></p>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
